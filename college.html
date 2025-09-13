@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College - Professional Disaster Management Education</title>
+    <meta name="description" content="Professional disaster management education for college students with comprehensive statistics and modern design.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body class="college-theme">
+    <!-- Navigation -->
+    <nav class="navbar college-navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🎓</span>
+                <span class="logo-text">CollegeAware</span>
+            </div>
+            <div class="nav-links">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#first-aid" class="nav-link">First Aid</a>
+                <a href="#disasters" class="nav-link">Disasters</a>
+                <a href="#earthquake-stats" class="nav-link">Earthquake Stats</a>
+                <a href="#cyclone-stats" class="nav-link">Cyclone Stats</a>
+                <a href="#flood-stats" class="nav-link">Flood Stats</a>
+                <a href="#quiz" class="nav-link">Quiz</a>
+                <a href="#emergency" class="nav-link">Emergency</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero college-hero">
+        <div class="hero-background">
+            <div class="college-animation">
+                <div class="parallax-layer layer-1"></div>
+                <div class="parallax-layer layer-2"></div>
+                <div class="parallax-layer layer-3"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title college-title">
+                <span class="title-line">Stay Safe.</span>
+                <span class="title-line">Be Aware.</span>
+                <span class="title-line">Be Prepared.</span>
+            </h1>
+            <p class="hero-subtitle college-subtitle">
+                Comprehensive disaster management education for <strong>Floods</strong>, <strong>Earthquakes</strong>, 
+                <strong>Droughts</strong>, and <strong>Cyclones</strong>
+            </p>
+            <div class="hero-cta">
+                <button class="cta-button college-cta" onclick="scrollToSection('first-aid')">
+                    Learn Safety Protocols
+                    <span class="cta-arrow">↓</span>
+                </button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- First Aid Section -->
+    <section id="first-aid" class="section first-aid-section college-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title college-section-title">First Aid Essentials</h2>
+                <p class="section-subtitle college-section-subtitle">Learn life-saving techniques for emergencies</p>
+            </div>
+            
+            <div class="first-aid-grid">
+                <!-- CPR Section -->
+                <div class="first-aid-card cpr-card college-card">
+                    <div class="card-icon college-icon">💓</div>
+                    <h3 class="card-title college-card-title">Manual CPR</h3>
+                    <div class="cpr-steps">
+                        <div class="step college-step">
+                            <span class="step-number college-step-number">1</span>
+                            <p>Check heartbeat</p>
+                        </div>
+                        <div class="step college-step">
+                            <span class="step-number college-step-number">2</span>
+                            <p>Hands on pillows or toys (practice)</p>
+                        </div>
+                        <div class="step college-step">
+                            <span class="step-number college-step-number">3</span>
+                            <p>Press chest 100–120 times/min</p>
+                        </div>
+                        <div class="step college-step">
+                            <span class="step-number college-step-number">4</span>
+                            <p>Mouth-to-mouth ventilation</p>
+                        </div>
+                    </div>
+                    <div class="cpr-song college-song">
+                        <p class="song-text">🎵 "Stayin' Alive" by Bee Gees - Perfect rhythm for CPR! 🎵</p>
+                    </div>
+                </div>
+
+                <!-- Wound Care Section -->
+                <div class="first-aid-card wound-card college-card">
+                    <div class="card-icon college-icon">🩹</div>
+                    <h3 class="card-title college-card-title">Wound Care</h3>
+                    <div class="wound-steps">
+                        <div class="step college-step">
+                            <span class="step-number college-step-number">1</span>
+                            <p>Clean with cotton</p>
+                        </div>
+                        <div class="step college-step">
+                            <span class="step-number college-step-number">2</span>
+                            <p>Stop bleeding</p>
+                        </div>
+                        <div class="step college-step">
+                            <span class="step-number college-step-number">3</span>
+                            <p>Bandage properly</p>
+                        </div>
+                        <div class="step college-step">
+                            <span class="step-number college-step-number">4</span>
+                            <p>Teach children about medical kits</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Medical Kit Section -->
+                <div class="first-aid-card medical-kit-card college-card">
+                    <div class="card-icon college-icon">🏥</div>
+                    <h3 class="card-title college-card-title">Medical Kit Essentials</h3>
+                    <div class="medical-mnemonics">
+                        <div class="mnemonic college-mnemonic">
+                            <h4>PCOV</h4>
+                            <p>Pain relief, Cotton, Ointment, Vitamins</p>
+                        </div>
+                        <div class="mnemonic college-mnemonic">
+                            <h4>ORS</h4>
+                            <p>Oral Rehydration Solution</p>
+                        </div>
+                        <div class="vitamin-codes">
+                            <h4>Vitamins A-D-E-K</h4>
+                            <div class="color-codes">
+                                <span class="color-code vitamin-a college-vitamin">A</span>
+                                <span class="color-code vitamin-d college-vitamin">D</span>
+                                <span class="color-code vitamin-e college-vitamin">E</span>
+                                <span class="color-code vitamin-k college-vitamin">K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disaster Preparedness Section -->
+    <section id="disasters" class="section disasters-section college-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title college-section-title">Disaster Preparedness</h2>
+                <p class="section-subtitle college-section-subtitle">Know what to do before, during, and after disasters</p>
+            </div>
+
+            <div class="disasters-grid">
+                <!-- Floods -->
+                <div class="disaster-card flood-card college-disaster-card">
+                    <div class="disaster-header">
+                        <div class="disaster-icon college-disaster-icon">🌊</div>
+                        <h3 class="disaster-title college-disaster-title">Floods</h3>
+                    </div>
+                    <div class="disaster-content">
+                        <div class="timeline">
+                            <div class="timeline-item before college-timeline-item">
+                                <h4>Before</h4>
+                                <ul>
+                                    <li>Move to high ground</li>
+                                    <li>Call 112/108/100</li>
+                                    <li>Stay upstairs</li>
+                                    <li>Listen to warnings</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-item after college-timeline-item">
+                                <h4>After</h4>
+                                <ul>
+                                    <li>Don't touch wires</li>
+                                    <li>Avoid flood water</li>
+                                    <li>Use sticks/tires for support</li>
+                                    <li>Stay calm</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Earthquakes -->
+                <div class="disaster-card earthquake-card college-disaster-card">
+                    <div class="disaster-header">
+                        <div class="disaster-icon college-disaster-icon">🌍</div>
+                        <h3 class="disaster-title college-disaster-title">Earthquakes</h3>
+                    </div>
+                    <div class="disaster-content">
+                        <div class="timeline">
+                            <div class="timeline-item during college-timeline-item">
+                                <h4>During</h4>
+                                <ul>
+                                    <li>Drop → Cover → Don't move</li>
+                                    <li>Stay under sturdy furniture</li>
+                                    <li>Hold on until shaking stops</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-item after college-timeline-item">
+                                <h4>After</h4>
+                                <ul>
+                                    <li>Stay away from buildings</li>
+                                    <li>Check for injuries</li>
+                                    <li>Use medicines if needed</li>
+                                    <li>Emergency: 1092</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Droughts -->
+                <div class="disaster-card drought-card college-disaster-card">
+                    <div class="disaster-header">
+                        <div class="disaster-icon college-disaster-icon">☀️</div>
+                        <h3 class="disaster-title college-disaster-title">Droughts</h3>
+                    </div>
+                    <div class="disaster-content">
+                        <div class="timeline">
+                            <div class="timeline-item before college-timeline-item">
+                                <h4>Prevention</h4>
+                                <ul>
+                                    <li>Conserve water</li>
+                                    <li>Store emergency water</li>
+                                    <li>Plant drought-resistant crops</li>
+                                    <li>Monitor weather reports</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-item during college-timeline-item">
+                                <h4>During</h4>
+                                <ul>
+                                    <li>Limit water usage</li>
+                                    <li>Use water-saving techniques</li>
+                                    <li>Support community efforts</li>
+                                    <li>Stay informed</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cyclones -->
+                <div class="disaster-card cyclone-card college-disaster-card">
+                    <div class="disaster-header">
+                        <div class="disaster-icon college-disaster-icon">🌀</div>
+                        <h3 class="disaster-title college-disaster-title">Cyclones</h3>
+                    </div>
+                    <div class="disaster-content">
+                        <div class="timeline">
+                            <div class="timeline-item during college-timeline-item">
+                                <h4>During</h4>
+                                <ul>
+                                    <li>Stay inside</li>
+                                    <li>Avoid windows</li>
+                                    <li>Follow adults' instructions</li>
+                                    <li>Emergency: 1070</li>
+                                </ul>
+                            </div>
+                            <div class="mnemonic-section college-mnemonic-section">
+                                <h4>SAFE Mnemonic</h4>
+                                <div class="mnemonic-grid">
+                                    <div class="mnemonic-item college-mnemonic-item">
+                                        <strong>S</strong>tay inside
+                                    </div>
+                                    <div class="mnemonic-item college-mnemonic-item">
+                                        <strong>A</strong>void windows
+                                    </div>
+                                    <div class="mnemonic-item college-mnemonic-item">
+                                        <strong>F</strong>ollow adults
+                                    </div>
+                                    <div class="mnemonic-item college-mnemonic-item">
+                                        <strong>E</strong>mergency 1070
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Earthquake Statistics Section -->
+    <section id="earthquake-stats" class="section earthquake-stats-section college-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title college-section-title">Earthquake Statistics in India</h2>
+                <p class="section-subtitle college-section-subtitle">Understanding the seismic risk and impact across the country</p>
+            </div>
+
+            <div class="earthquake-stats-grid">
+                <div class="earthquake-stat-card college-stat-card">
+                    <div class="stat-icon">🌍</div>
+                    <div class="stat-number" data-target="59">0</div>
+                    <div class="stat-suffix">%</div>
+                    <div class="stat-label">of Indian land area is prone to earthquakes</div>
+                </div>
+
+                <div class="earthquake-stat-card college-stat-card">
+                    <div class="stat-icon">📊</div>
+                    <div class="stat-number" data-target="27">0</div>
+                    <div class="stat-suffix">major earthquakes</div>
+                    <div class="stat-label">recorded since 1900</div>
+                </div>
+
+                <div class="earthquake-stat-card college-stat-card">
+                    <div class="stat-icon">💔</div>
+                    <div class="stat-number" data-target="23000">0</div>
+                    <div class="stat-suffix">deaths</div>
+                    <div class="stat-label">reported from earthquakes in India during the last century</div>
+                </div>
+
+                <div class="earthquake-stat-card college-stat-card">
+                    <div class="stat-icon">💰</div>
+                    <div class="stat-number" data-target="billions">0</div>
+                    <div class="stat-suffix">in damages</div>
+                    <div class="stat-label">economic damages due to recurring earthquakes</div>
+                </div>
+            </div>
+
+            <div class="earthquake-stats-note college-stats-note">
+                <p>These statistics highlight the critical importance of earthquake preparedness and awareness in India's seismic zones.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cyclone Statistics Section -->
+    <section id="cyclone-stats" class="section cyclone-stats-section college-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title college-section-title">Cyclone Statistics in India</h2>
+                <p class="section-subtitle college-section-subtitle">Understanding the impact and frequency of cyclones across coastal regions</p>
+            </div>
+
+            <div class="cyclone-stats-grid">
+                <div class="cyclone-stat-card college-stat-card">
+                    <div class="stat-icon">🌀</div>
+                    <div class="stat-number" data-target="117">0</div>
+                    <div class="stat-suffix">cyclones</div>
+                    <div class="stat-label">hit India from 1970 to 2019</div>
+                </div>
+
+                <div class="cyclone-stat-card college-stat-card">
+                    <div class="stat-icon">💔</div>
+                    <div class="stat-number" data-target="40000">0</div>
+                    <div class="stat-suffix">lives lost</div>
+                    <div class="stat-label">estimated casualties from cyclones</div>
+                </div>
+
+                <div class="cyclone-stat-card college-stat-card">
+                    <div class="stat-icon">📊</div>
+                    <div class="stat-number" data-target="28">0</div>
+                    <div class="stat-suffix">%</div>
+                    <div class="stat-label">of extreme weather deaths are due to cyclones</div>
+                </div>
+
+                <div class="cyclone-stat-card college-stat-card">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-number" data-target="55">0</div>
+                    <div class="stat-suffix">million people</div>
+                    <div class="stat-label">affected in the past 10 years</div>
+                </div>
+
+                <div class="cyclone-stat-card college-stat-card">
+                    <div class="stat-icon">💰</div>
+                    <div class="stat-number" data-target="1100">0</div>
+                    <div class="stat-suffix">crores</div>
+                    <div class="stat-label">estimated economic loss for a large-scale cyclone</div>
+                </div>
+            </div>
+
+            <div class="cyclone-stats-note college-stats-note">
+                <p>These statistics emphasize the critical need for cyclone preparedness and early warning systems in India's coastal regions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flood Statistics Section -->
+    <section id="flood-stats" class="section flood-stats-section college-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title college-section-title">Flood Statistics in India</h2>
+                <p class="section-subtitle college-section-subtitle">Understanding the scale and impact of flooding across the country</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card college-stat-card">
+                    <div class="stat-number" data-target="44">0</div>
+                    <div class="stat-suffix">%</div>
+                    <div class="stat-label">of population exposed to flood risk</div>
+                    <div class="stat-icon">🌊</div>
+                </div>
+
+                <div class="stat-card college-stat-card">
+                    <div class="stat-number" data-target="17400">0</div>
+                    <div class="stat-suffix">deaths</div>
+                    <div class="stat-label">from 2012 to 2021</div>
+                    <div class="stat-icon">💔</div>
+                </div>
+
+                <div class="stat-card college-stat-card">
+                    <div class="stat-number" data-target="25850">0</div>
+                    <div class="stat-suffix">crores</div>
+                    <div class="stat-label">economic losses in the last decade</div>
+                    <div class="stat-icon">💰</div>
+                </div>
+
+                <div class="stat-card college-stat-card">
+                    <div class="stat-number" data-target="21">0</div>
+                    <div class="stat-suffix">million hectares</div>
+                    <div class="stat-label">affected across 712 districts since 1986</div>
+                    <div class="stat-icon">🏞️</div>
+                </div>
+
+                <div class="stat-card stat-card-wide college-stat-card-wide">
+                    <div class="stat-label">Most prone states</div>
+                    <div class="states-list">
+                        <div class="state-item">
+                            <span class="state-name">Uttar Pradesh</span>
+                            <div class="risk-bar">
+                                <div class="risk-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="state-item">
+                            <span class="state-name">Bihar</span>
+                            <div class="risk-bar">
+                                <div class="risk-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="state-item">
+                            <span class="state-name">Assam</span>
+                            <div class="risk-bar">
+                                <div class="risk-fill" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="state-item">
+                            <span class="state-name">West Bengal</span>
+                            <div class="risk-bar">
+                                <div class="risk-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-icon">🗺️</div>
+                </div>
+            </div>
+
+            <div class="stats-note college-stats-note">
+                <p>These statistics highlight the critical importance of flood preparedness and awareness in India.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Quiz Section -->
+    <section id="quiz" class="section quiz-section college-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title college-section-title">Interactive Learning</h2>
+                <p class="section-subtitle college-section-subtitle">Test your knowledge with our safety quizzes</p>
+            </div>
+
+            <div class="quiz-container">
+                <div class="quiz-card college-quiz-card">
+                    <h3 class="quiz-title college-quiz-title">Safety Quiz</h3>
+                    <div class="quiz-question" id="quiz-question">
+                        <p>What should you do if you're caught in a flood?</p>
+                    </div>
+                    <div class="quiz-options" id="quiz-options">
+                        <button class="quiz-option college-quiz-option" data-answer="correct">Move to higher ground</button>
+                        <button class="quiz-option college-quiz-option" data-answer="wrong">Stay in the car</button>
+                        <button class="quiz-option college-quiz-option" data-answer="wrong">Swim through the water</button>
+                        <button class="quiz-option college-quiz-option" data-answer="wrong">Wait for help in the basement</button>
+                    </div>
+                    <div class="quiz-feedback" id="quiz-feedback"></div>
+                    <button class="quiz-next college-quiz-next" id="quiz-next" style="display: none;">Next Question</button>
+                </div>
+
+                <div class="flashcards-container college-flashcards">
+                    <h3 class="flashcards-title college-flashcards-title">Safety Supplies Flashcards</h3>
+                    <div class="flashcards-grid">
+                        <div class="flashcard college-flashcard" data-item="bandage">
+                            <div class="flashcard-front">🩹</div>
+                            <div class="flashcard-back">Bandage</div>
+                        </div>
+                        <div class="flashcard college-flashcard" data-item="ors">
+                            <div class="flashcard-front">💧</div>
+                            <div class="flashcard-back">ORS</div>
+                        </div>
+                        <div class="flashcard college-flashcard" data-item="torch">
+                            <div class="flashcard-front">🔦</div>
+                            <div class="flashcard-back">Torch</div>
+                        </div>
+                        <div class="flashcard college-flashcard" data-item="whistle">
+                            <div class="flashcard-front">📢</div>
+                            <div class="flashcard-back">Whistle</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Numbers Section -->
+    <section id="emergency" class="section emergency-section college-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title college-section-title">Emergency Contacts</h2>
+                <p class="section-subtitle college-section-subtitle">Save these numbers - they could save lives</p>
+            </div>
+
+            <div class="emergency-grid">
+                <div class="emergency-card college-emergency-card">
+                    <div class="emergency-icon college-emergency-icon">🚨</div>
+                    <h3 class="emergency-title college-emergency-title">General Emergency</h3>
+                    <div class="emergency-numbers">
+                        <div class="number-item college-number-item">
+                            <span class="number college-number">112</span>
+                            <span class="description college-description">National Emergency</span>
+                        </div>
+                        <div class="number-item college-number-item">
+                            <span class="number college-number">108</span>
+                            <span class="description college-description">Ambulance</span>
+                        </div>
+                        <div class="number-item college-number-item">
+                            <span class="number college-number">100</span>
+                            <span class="description college-description">Police</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="emergency-card college-emergency-card">
+                    <div class="emergency-icon college-emergency-icon">🌍</div>
+                    <h3 class="emergency-title college-emergency-title">Earthquake Rescue</h3>
+                    <div class="emergency-numbers">
+                        <div class="number-item college-number-item">
+                            <span class="number college-number">1092</span>
+                            <span class="description college-description">Earthquake Helpline</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="emergency-card college-emergency-card">
+                    <div class="emergency-icon college-emergency-icon">🌀</div>
+                    <h3 class="emergency-title college-emergency-title">Cyclone Helpline</h3>
+                    <div class="emergency-numbers">
+                        <div class="number-item college-number-item">
+                            <span class="number college-number">1070</span>
+                            <span class="description college-description">Cyclone Emergency</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="emergency-tips college-emergency-tips">
+                <h3>Emergency Tips</h3>
+                <ul>
+                    <li>Keep emergency numbers saved in your phone</li>
+                    <li>Teach children these numbers by heart</li>
+                    <li>Have a family emergency plan</li>
+                    <li>Keep emergency supplies ready</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer college-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">🎓</span>
+                    <span class="logo-text">CollegeAware</span>
+                </div>
+                <p class="footer-text">
+                    Empowering college students through comprehensive disaster awareness and preparedness education.
+                </p>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#first-aid">First Aid</a>
+                    <a href="#disasters">Disasters</a>
+                    <a href="#earthquake-stats">Earthquake Stats</a>
+                    <a href="#cyclone-stats">Cyclone Stats</a>
+                    <a href="#flood-stats">Flood Stats</a>
+                    <a href="#quiz">Quiz</a>
+                    <a href="#emergency">Emergency</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CollegeAware. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Children - Disaster Awareness Fun Learning</title>
+    <meta name="description" content="Fun and interactive disaster awareness learning for children with colorful animations and engaging quizzes.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body class="students-theme">
+    <!-- Navigation -->
+    <nav class="navbar students-navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🎒</span>
+                <span class="logo-text">ChildAware</span>
+            </div>
+            <div class="nav-links">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#first-aid" class="nav-link">First Aid</a>
+                <a href="#disasters" class="nav-link">Disasters</a>
+                <a href="#cpr-video" class="nav-link">CPR Video</a>
+                <a href="#quiz" class="nav-link">Quiz</a>
+                <a href="#emergency" class="nav-link">Emergency</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero students-hero">
+        <div class="hero-background">
+            <div class="students-animation">
+                <div class="floating-emoji">🌊</div>
+                <div class="floating-emoji">🌍</div>
+                <div class="floating-emoji">☀️</div>
+                <div class="floating-emoji">🌀</div>
+                <div class="floating-emoji">🛡️</div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title students-title">
+                <span class="title-line">Stay Safe!</span>
+                <span class="title-line">Be Aware!</span>
+                <span class="title-line">Be Prepared!</span>
+            </h1>
+            <p class="hero-subtitle students-subtitle">
+                Fun learning about <strong>Floods</strong>, <strong>Earthquakes</strong>, 
+                <strong>Droughts</strong>, and <strong>Cyclones</strong> 🎉
+            </p>
+            <div class="hero-cta">
+                <button class="cta-button students-cta" onclick="scrollToSection('first-aid')">
+                    Let's Learn Together! 🚀
+                    <span class="cta-arrow">↓</span>
+                </button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">Scroll to explore fun learning!</span>
+        </div>
+    </section>
+
+    <!-- First Aid Section -->
+    <section id="first-aid" class="section first-aid-section students-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title students-section-title">🩹 First Aid Fun!</h2>
+                <p class="section-subtitle students-section-subtitle">Learn life-saving techniques with fun animations!</p>
+            </div>
+            
+            <div class="first-aid-grid">
+                <!-- CPR Section -->
+                <div class="first-aid-card cpr-card students-card">
+                    <div class="card-icon students-icon">💓</div>
+                    <h3 class="card-title students-card-title">CPR Practice</h3>
+                    <div class="cpr-steps">
+                        <div class="step students-step">
+                            <span class="step-number students-step-number">1</span>
+                            <p>Check heartbeat 💓</p>
+                        </div>
+                        <div class="step students-step">
+                            <span class="step-number students-step-number">2</span>
+                            <p>Practice on pillows or toys 🧸</p>
+                        </div>
+                        <div class="step students-step">
+                            <span class="step-number students-step-number">3</span>
+                            <p>Press chest 100–120 times/min 🎵</p>
+                        </div>
+                        <div class="step students-step">
+                            <span class="step-number students-step-number">4</span>
+                            <p>Mouth-to-mouth breathing 💨</p>
+                        </div>
+                    </div>
+                    <div class="cpr-song students-song">
+                        <p class="song-text">🎵 "Stayin' Alive" by Bee Gees - Perfect rhythm for CPR! 🎵</p>
+                    </div>
+                </div>
+
+                <!-- Wound Care Section -->
+                <div class="first-aid-card wound-card students-card">
+                    <div class="card-icon students-icon">🩹</div>
+                    <h3 class="card-title students-card-title">Wound Care</h3>
+                    <div class="wound-steps">
+                        <div class="step students-step">
+                            <span class="step-number students-step-number">1</span>
+                            <p>Clean with cotton 🧽</p>
+                        </div>
+                        <div class="step students-step">
+                            <span class="step-number students-step-number">2</span>
+                            <p>Stop bleeding 🛑</p>
+                        </div>
+                        <div class="step students-step">
+                            <span class="step-number students-step-number">3</span>
+                            <p>Bandage properly 🩹</p>
+                        </div>
+                        <div class="step students-step">
+                            <span class="step-number students-step-number">4</span>
+                            <p>Learn about medical kits 🏥</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Medical Kit Section -->
+                <div class="first-aid-card medical-kit-card students-card">
+                    <div class="card-icon students-icon">🏥</div>
+                    <h3 class="card-title students-card-title">Medical Kit Fun</h3>
+                    <div class="medical-mnemonics">
+                        <div class="mnemonic students-mnemonic">
+                            <h4>PCOV</h4>
+                            <p>Pain relief, Cotton, Ointment, Vitamins</p>
+                        </div>
+                        <div class="mnemonic students-mnemonic">
+                            <h4>ORS</h4>
+                            <p>Oral Rehydration Solution 💧</p>
+                        </div>
+                        <div class="vitamin-codes">
+                            <h4>Vitamins A-D-E-K</h4>
+                            <div class="color-codes">
+                                <span class="color-code vitamin-a students-vitamin">A</span>
+                                <span class="color-code vitamin-d students-vitamin">D</span>
+                                <span class="color-code vitamin-e students-vitamin">E</span>
+                                <span class="color-code vitamin-k students-vitamin">K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disaster Preparedness Section -->
+    <section id="disasters" class="section disasters-section students-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title students-section-title">🌪️ Disaster Safety Fun!</h2>
+                <p class="section-subtitle students-section-subtitle">Learn what to do with fun characters and animations!</p>
+            </div>
+
+            <div class="disasters-grid">
+                <!-- Floods -->
+                <div class="disaster-card flood-card students-disaster-card">
+                    <div class="disaster-header">
+                        <div class="disaster-icon students-disaster-icon">🌊</div>
+                        <h3 class="disaster-title students-disaster-title">Floods</h3>
+                    </div>
+                    <div class="disaster-content">
+                        <div class="timeline">
+                            <div class="timeline-item before students-timeline-item">
+                                <h4>Before 🌧️</h4>
+                                <ul>
+                                    <li>Move to high ground ⛰️</li>
+                                    <li>Call 112/108/100 📞</li>
+                                    <li>Stay upstairs 🏠</li>
+                                    <li>Listen to warnings 👂</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-item after students-timeline-item">
+                                <h4>After ☀️</h4>
+                                <ul>
+                                    <li>Don't touch wires ⚡</li>
+                                    <li>Avoid flood water 🚫</li>
+                                    <li>Use sticks/tires for support 🛞</li>
+                                    <li>Stay calm 😌</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Earthquakes -->
+                <div class="disaster-card earthquake-card students-disaster-card">
+                    <div class="disaster-header">
+                        <div class="disaster-icon students-disaster-icon">🌍</div>
+                        <h3 class="disaster-title students-disaster-title">Earthquakes</h3>
+                    </div>
+                    <div class="disaster-content">
+                        <div class="timeline">
+                            <div class="timeline-item during students-timeline-item">
+                                <h4>During 🌍</h4>
+                                <ul>
+                                    <li>Drop → Cover → Don't move 🛡️</li>
+                                    <li>Stay under sturdy furniture 🪑</li>
+                                    <li>Hold on until shaking stops 🤝</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-item after students-timeline-item">
+                                <h4>After ✅</h4>
+                                <ul>
+                                    <li>Stay away from buildings 🏢</li>
+                                    <li>Check for injuries 🩹</li>
+                                    <li>Use medicines if needed 💊</li>
+                                    <li>Emergency: 1092 🚨</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Droughts -->
+                <div class="disaster-card drought-card students-disaster-card">
+                    <div class="disaster-header">
+                        <div class="disaster-icon students-disaster-icon">☀️</div>
+                        <h3 class="disaster-title students-disaster-title">Droughts</h3>
+                    </div>
+                    <div class="disaster-content">
+                        <div class="timeline">
+                            <div class="timeline-item before students-timeline-item">
+                                <h4>Prevention 🌱</h4>
+                                <ul>
+                                    <li>Conserve water 💧</li>
+                                    <li>Store emergency water 🗄️</li>
+                                    <li>Plant drought-resistant crops 🌾</li>
+                                    <li>Monitor weather reports 📊</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-item during students-timeline-item">
+                                <h4>During ☀️</h4>
+                                <ul>
+                                    <li>Limit water usage 🚰</li>
+                                    <li>Use water-saving techniques 💡</li>
+                                    <li>Support community efforts 🤝</li>
+                                    <li>Stay informed 📰</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cyclones -->
+                <div class="disaster-card cyclone-card students-disaster-card">
+                    <div class="disaster-header">
+                        <div class="disaster-icon students-disaster-icon">🌀</div>
+                        <h3 class="disaster-title students-disaster-title">Cyclones</h3>
+                    </div>
+                    <div class="disaster-content">
+                        <div class="timeline">
+                            <div class="timeline-item during students-timeline-item">
+                                <h4>During 🌪️</h4>
+                                <ul>
+                                    <li>Stay inside 🏠</li>
+                                    <li>Avoid windows 🪟</li>
+                                    <li>Follow adults' instructions 👨‍👩‍👧‍👦</li>
+                                    <li>Emergency: 1070 🚨</li>
+                                </ul>
+                            </div>
+                            <div class="mnemonic-section students-mnemonic-section">
+                                <h4>SAFE Mnemonic 🧠</h4>
+                                <div class="mnemonic-grid">
+                                    <div class="mnemonic-item students-mnemonic-item">
+                                        <strong>S</strong>tay inside 🏠
+                                    </div>
+                                    <div class="mnemonic-item students-mnemonic-item">
+                                        <strong>A</strong>void windows 🪟
+                                    </div>
+                                    <div class="mnemonic-item students-mnemonic-item">
+                                        <strong>F</strong>ollow adults 👨‍👩‍👧‍👦
+                                    </div>
+                                    <div class="mnemonic-item students-mnemonic-item">
+                                        <strong>E</strong>mergency 1070 🚨
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learn CPR with Fun! Section -->
+    <section id="cpr-video" class="section cpr-video-section students-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title students-section-title">🎬 Learn CPR with Fun!</h2>
+                <p class="section-subtitle students-section-subtitle">Watch this fun video to learn how to save lives!</p>
+            </div>
+            
+            <div class="cpr-video-container">
+                <div class="cpr-video-card students-card">
+                    <h3 class="cpr-video-title students-card-title">How to do CPR — For Kids</h3>
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://www.youtube.com/embed/2DgHfVjH-bY" 
+                            title="CPR for Kids - Fun Learning Video"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <p class="cpr-video-caption">Watch this fun video to learn how to save lives! 🚀</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Quiz Section -->
+    <section id="quiz" class="section quiz-section students-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title students-section-title">🎮 Fun Learning Quiz!</h2>
+                <p class="section-subtitle students-section-subtitle">Test your knowledge with our super fun quizzes!</p>
+            </div>
+
+            <div class="quiz-container">
+                <div class="quiz-card students-quiz-card">
+                    <h3 class="quiz-title students-quiz-title">Safety Quiz 🧠</h3>
+                    <div class="quiz-question" id="quiz-question">
+                        <p>What should you do if you're caught in a flood? 🌊</p>
+                    </div>
+                    <div class="quiz-options" id="quiz-options">
+                        <button class="quiz-option students-quiz-option" data-answer="correct">Move to higher ground ⛰️</button>
+                        <button class="quiz-option students-quiz-option" data-answer="wrong">Stay in the car 🚗</button>
+                        <button class="quiz-option students-quiz-option" data-answer="wrong">Swim through the water 🏊</button>
+                        <button class="quiz-option students-quiz-option" data-answer="wrong">Wait for help in the basement 🏠</button>
+                    </div>
+                    <div class="quiz-feedback" id="quiz-feedback"></div>
+                    <button class="quiz-next students-quiz-next" id="quiz-next" style="display: none;">Next Question! 🚀</button>
+                </div>
+
+                <div class="flashcards-container students-flashcards">
+                    <h3 class="flashcards-title students-flashcards-title">Safety Supplies Fun! 🎴</h3>
+                    <div class="flashcards-grid">
+                        <div class="flashcard students-flashcard" data-item="bandage">
+                            <div class="flashcard-front">🩹</div>
+                            <div class="flashcard-back">Bandage</div>
+                        </div>
+                        <div class="flashcard students-flashcard" data-item="ors">
+                            <div class="flashcard-front">💧</div>
+                            <div class="flashcard-back">ORS</div>
+                        </div>
+                        <div class="flashcard students-flashcard" data-item="torch">
+                            <div class="flashcard-front">🔦</div>
+                            <div class="flashcard-back">Torch</div>
+                        </div>
+                        <div class="flashcard students-flashcard" data-item="whistle">
+                            <div class="flashcard-front">📢</div>
+                            <div class="flashcard-back">Whistle</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Numbers Section -->
+    <section id="emergency" class="section emergency-section students-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title students-section-title">🚨 Emergency Numbers</h2>
+                <p class="section-subtitle students-section-subtitle">Save these numbers - they could save lives!</p>
+            </div>
+
+            <div class="emergency-grid">
+                <div class="emergency-card students-emergency-card">
+                    <div class="emergency-icon students-emergency-icon">🚨</div>
+                    <h3 class="emergency-title students-emergency-title">General Emergency</h3>
+                    <div class="emergency-numbers">
+                        <div class="number-item students-number-item">
+                            <span class="number students-number">112</span>
+                            <span class="description students-description">National Emergency</span>
+                        </div>
+                        <div class="number-item students-number-item">
+                            <span class="number students-number">108</span>
+                            <span class="description students-description">Ambulance</span>
+                        </div>
+                        <div class="number-item students-number-item">
+                            <span class="number students-number">100</span>
+                            <span class="description students-description">Police</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="emergency-card students-emergency-card">
+                    <div class="emergency-icon students-emergency-icon">🌍</div>
+                    <h3 class="emergency-title students-emergency-title">Earthquake Rescue</h3>
+                    <div class="emergency-numbers">
+                        <div class="number-item students-number-item">
+                            <span class="number students-number">1092</span>
+                            <span class="description students-description">Earthquake Helpline</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="emergency-card students-emergency-card">
+                    <div class="emergency-icon students-emergency-icon">🌀</div>
+                    <h3 class="emergency-title students-emergency-title">Cyclone Helpline</h3>
+                    <div class="emergency-numbers">
+                        <div class="number-item students-number-item">
+                            <span class="number students-number">1070</span>
+                            <span class="description students-description">Cyclone Emergency</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="emergency-tips students-emergency-tips">
+                <h3>Emergency Tips 💡</h3>
+                <ul>
+                    <li>Keep emergency numbers saved in your phone 📱</li>
+                    <li>Teach children these numbers by heart ❤️</li>
+                    <li>Have a family emergency plan 👨‍👩‍👧‍👦</li>
+                    <li>Keep emergency supplies ready 🎒</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer students-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">🎒</span>
+                    <span class="logo-text">ChildAware</span>
+                </div>
+                <p class="footer-text">
+                    Making disaster awareness fun and engaging for children! 🎉
+                </p>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#first-aid">First Aid</a>
+                    <a href="#disasters">Disasters</a>
+                    <a href="#cpr-video">CPR Video</a>
+                    <a href="#quiz">Quiz</a>
+                    <a href="#emergency">Emergency</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ChildAware. All rights reserved. 🎓</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
